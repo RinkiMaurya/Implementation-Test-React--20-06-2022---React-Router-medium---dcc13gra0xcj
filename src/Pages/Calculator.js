@@ -1,6 +1,7 @@
 import React from "react";
 
-export const Calculator = () => {
+export const Calculator = () => 
+{
   let url_string = window.location.href;
   var url = new URL(url_string);
   var num1 = Number(url.searchParams.get("num1"));
